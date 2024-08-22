@@ -1,0 +1,24 @@
+.container-search {
+    background-color: var(--colour-bg-container--search);
+    margin-top: 100px;
+    padding: 10px 10px 25px 10px;
+    text-align: center;
+}
+
+.form-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-search {
+    width: 100px;
+}
+
+.form-search > input {
+    border: 1px solid var(--colour-border-btn);
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 280px;
+}

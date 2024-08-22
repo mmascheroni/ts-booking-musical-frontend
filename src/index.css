@@ -1,0 +1,38 @@
+:root {
+    --colour-bg-header: #5cbcb0;
+    --colour-bg-btn: #6bdacb;
+    --colour-border-btn: #3f8179;
+    --colour-bg-container--search: #6aa0d9;
+    --colour-bg-footer: #5cbdb1;
+    --colour-card-fondo: #ffffff;
+    --colour-fondo: #fafafa;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+footer {
+    background-color: var(--colour-bg-footer);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
