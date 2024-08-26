@@ -1,4 +1,5 @@
-import { CardCategories, Footer, Navbar, Search } from './components'
+import { Footer, Navbar } from './components'
+import { HomePage } from './sinfonia/pages'
 
 
 function App() {
@@ -6,8 +7,7 @@ function App() {
   return (
     <>
       <Navbar logged={true} />
-      <Search />
-      <CardCategories />
+      <HomePage />
       <Footer />
     </>
   )

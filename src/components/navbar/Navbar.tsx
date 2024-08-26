@@ -11,7 +11,7 @@ const Navbar = ({ logged = false }) => {
             {
                 logged ?
                     <nav className={logged && 'nav-logged'}>
-                        <ul>
+                        <ul className='ul-nav'>
                             <li>Home</li>
                             <li>Products</li>
                             <li>Admin</li>

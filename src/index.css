@@ -1,14 +1,17 @@
 :root {
     --colour-bg-header: #5cbcb0;
-    --colour-bg-btn: #6bdacb;
-    --colour-border-btn: #3f8179;
-    --colour-bg-container--search: #6aa0d9;
-    --colour-bg-footer: #5cbdb1;
-    --colour-card-fondo: #ffffff;
-    --colour-fondo: #fafafa;
+    --colour-bg-body--one: #e0e0e0;
+    --colour-bg-body--two: #f2f2f2;
+    --colour-bg-search: #1977ad;
+    --colour-bg-footer: #189284;
+    --colour-border-card: #868a88;
+    --colour-border-card--hover: #3f4140;
+    --colour-bg-btn--search: #80cbf7;
+    --colour-border-btn--search: #00395a;
 }
 
 body {
+    background-color: var(--colour-bg-body--one);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
