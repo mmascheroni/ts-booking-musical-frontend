@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Navbar logged={false} />
+      <Navbar logged={true} />
       <HomePage />
       <Footer />
     </>

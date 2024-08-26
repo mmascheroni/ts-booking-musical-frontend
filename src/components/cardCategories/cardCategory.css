@@ -10,7 +10,7 @@ h3 {
 
 .container-categories--card {
     display: grid;
-    align-items: center;
+    align-items: start;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -48,12 +48,18 @@ h3 {
 
 @media (max-width: 727px) {
     .container-categories--card {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        grid-column-gap: 50px;
+    }
+
+    .card-category {
+        width: 120px;
     }
 }
 
-@media (max-width: 528px) {
+/* @media (max-width: 528px) {
     .container-categories--card {
         grid-template-columns: 1fr;
     }
-}
+} */

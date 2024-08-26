@@ -44,6 +44,20 @@ button:hover {
     opacity: 85%;
 }
 
+.ul-nav > li {
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    transition: 0.3s ease-in;
+}
+
+.ul-nav > li:hover {
+    border-bottom: 4px solid #17e0e7;
+    opacity: 85%;
+    transform: scale(1.02);
+}
+
 @media (min-width: 955px) {
     .nav-logged {
         padding-right: 100px;
