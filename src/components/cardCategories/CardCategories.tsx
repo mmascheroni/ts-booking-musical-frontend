@@ -1,14 +1,53 @@
-// import React from 'react'
+import CardCategory from './CardCategory'
+import './cardCategory.css'
 
-// const CardCategories = ({ categories = [] }) => {
-//     return (
-//         {
-//             categories.map((category : []) => (
-//                 CardCategories(category)
-//             )
-//             )
-//         }
-//     )
-// }
+const categories = [
+    {
+        id: 1,
+        name: 'Viento'
+    },
+    {
+        id: 2,
+        name: 'Guitarras Clásicas'
+    },
+    {
+        id: 3,
+        name: 'Guitarras Eléctricas'
+    },
+    {
+        id: 4,
+        name: 'Guitarras Acústicas'
+    },
+    {
+        id: 5,
+        name: 'Bajos'
+    },
+    {
+        id: 6,
+        name: 'Percusión'
+    },
+    {
+        id: 7,
+        name: 'Parlantes'
+    },
+]
 
-// export default CardCategories
+const CardCategories = () => {
+
+
+    return (
+        <>
+            <h2>Categorias</h2>
+            <div className="container-categories--card">
+                { categories.map(
+                        category => (
+                            <CardCategory key={category.id} category={category.name} />
+                        )
+                    )   
+                }
+            </div>
+        </>
+    )
+}
+
+export default CardCategories
