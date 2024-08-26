@@ -1,0 +1,35 @@
+h2,
+h3 {
+    text-align: center;
+}
+
+.container-categories--card {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card-category {
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.card-category:hover {
+    opacity: 90%;
+    transform: scale(1.02);
+}
+
+@media (max-width: 727px) {
+    .container-categories--card {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 528px) {
+    .container-categories--card {
+        grid-template-columns: 1fr;
+    }
+}

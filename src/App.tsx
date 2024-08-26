@@ -1,4 +1,4 @@
-import { Footer, Navbar, Search } from './components'
+import { CardCategories, Footer, Navbar, Search } from './components'
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <>
       <Navbar logged={true} />
       <Search />
+      <CardCategories />
       <Footer />
     </>
   )
