@@ -15,8 +15,15 @@ header {
 header > .container-logo > img {
     border: 1px solid var(--colour-border-btn);
     border-radius: 20px;
+    cursor: pointer;
     min-width: 80px;
     max-width: 80px;
+    transition: 0.3 all ease-in;
+}
+
+header > .container-logo > img:hover {
+    opacity: 90%;
+    transform: scale(1.02);
 }
 
 header > nav > ul {

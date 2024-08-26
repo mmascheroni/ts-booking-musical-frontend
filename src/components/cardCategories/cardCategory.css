@@ -22,6 +22,10 @@ h3 {
     transform: scale(1.02);
 }
 
+.card-category > img {
+    border-radius: 50%;
+}
+
 @media (max-width: 727px) {
     .container-categories--card {
         grid-template-columns: 1fr 1fr;

@@ -26,10 +26,6 @@ const categories = [
         id: 6,
         name: 'Percusión'
     },
-    {
-        id: 7,
-        name: 'Parlantes'
-    },
 ]
 
 const CardCategories = () => {
