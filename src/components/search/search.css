@@ -1,8 +1,12 @@
 .container-search {
-    background-color: var(--colour-bg-container--search);
-    margin-top: 100px;
+    background-color: var(--colour-bg-search);
+    margin-top: 80px;
     padding: 10px 10px 25px 10px;
     text-align: center;
+}
+
+.container-search > h2 {
+    color: #fff;
 }
 
 .form-search {

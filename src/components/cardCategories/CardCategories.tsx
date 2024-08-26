@@ -32,7 +32,7 @@ const CardCategories = () => {
 
 
     return (
-        <>
+        <section className='section-category'>
             <h2>Categorias</h2>
             <div className="container-categories--card">
                 { categories.map(
@@ -42,7 +42,7 @@ const CardCategories = () => {
                     )   
                 }
             </div>
-        </>
+        </section>
     )
 }
 

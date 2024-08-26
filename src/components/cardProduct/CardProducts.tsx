@@ -30,7 +30,7 @@ const products = [
 
 const CardProducts = () => {
     return (
-        <>
+        <section className='section-products'>
             <h2>Productos Aleatorios</h2>
             <div className='container-products--card'>
                 {
@@ -41,7 +41,7 @@ const CardProducts = () => {
                     )
                 }
             </div>
-        </>
+        </section>
     )
 }
 
